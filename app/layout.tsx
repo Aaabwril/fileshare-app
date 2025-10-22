@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "FileShare - Secure File Sharing",
   description: "Share files securely with anyone, anywhere",
+  icons: [
+    { rel: 'icon', url: '/public/favicon.png' }
+  ],
 };
 
 export default function RootLayout({
@@ -21,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/public/favicon.png" />
+      </head>
       <body
         className={`${inter.className} antialiased`}
       >
