@@ -184,9 +184,6 @@ await insforge.database
   .eq('id', fileId);
 ```
 
-### Upload Progress
-Upload progress is simulated with a smooth progress bar for better UX.
-
 ### Download Tracking
 Each download increments the counter in the database:
 ```typescript
