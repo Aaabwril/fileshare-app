@@ -67,7 +67,7 @@ fileshare-app/
    
    Create a `.env.local` file in the root directory:
    ```env
-   NEXT_PUBLIC_INSFORGE_URL=https://k7ay9zyq.us-east.insforge.app
+   NEXT_PUBLIC_INSFORGE_URL=add your API key here..
    ```
 
 4. **Run the development server:**
